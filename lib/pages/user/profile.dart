@@ -20,7 +20,7 @@ class _ProfileState extends State<Profile> {
       await user!.sendEmailVerification();
       print('Verification Email has benn sent');
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
+        const SnackBar(
           backgroundColor: Colors.orangeAccent,
           content: Text(
             'Verification Email has benn sent',
