@@ -1,8 +1,8 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:it20004668_labinclasstest/pages/forgot_password.dart';
-import 'package:it20004668_labinclasstest/pages/signup.dart';
-import 'package:it20004668_labinclasstest/pages/user/user_main.dart';
+import 'package:ctse_project/pages/forgot_password.dart';
+import 'package:ctse_project/pages/signup.dart';
+import 'package:ctse_project/pages/user/user_main.dart';
 
 class Login extends StatefulWidget {
   Login({Key? key}) : super(key: key);

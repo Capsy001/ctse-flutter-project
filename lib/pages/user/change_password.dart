@@ -1,6 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:it20004668_labinclasstest/pages/login.dart';
+import 'package:ctse_project/pages/login.dart';
 
 class ChangePassword extends StatefulWidget {
   ChangePassword({Key? key}) : super(key: key);
