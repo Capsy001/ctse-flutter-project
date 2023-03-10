@@ -12,7 +12,7 @@ class _DashboardState extends State<Dashboard> {
   Widget build(BuildContext context) {
     return Center(
       child: Container(
-          child: Text(
+          child: const Text(
         'Dashboard',
         style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
       )),

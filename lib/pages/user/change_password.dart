@@ -35,7 +35,7 @@ class _ChangePasswordState extends State<ChangePassword> {
         MaterialPageRoute(builder: (context) => Login()),
       );
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
+        const SnackBar(
           backgroundColor: Colors.orangeAccent,
           content: Text(
             'Your Password has been Changed. Login again !',
